@@ -5,6 +5,6 @@
     "author.github": "evanstark",
     "version": "1.0.0",
     "dependencies": ["jq", "curl"],
-    "image": "https://raw.githubusercontent.com/evandstark/syncopath/mainicon.svg",
+    "image": "https://raw.githubusercontent.com/evandstark/syncopath/main/icon.svg",
     "script": "SyncthingDev.10s.sh"
   }
