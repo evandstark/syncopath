@@ -1,14 +1,12 @@
 #!/bin/bash
 
-# Metadata
+# <swiftbar.icon>https://raw.githubusercontent.com/evandstark/syncopath/main/icon.png</swiftbar.icon>
 # <swiftbar.title>Syncopath</swiftbar.title>
 # <swiftbar.desc>Live Syncthing monitor with progress, auto-heal, alerts, and background watchdog</swiftbar.desc>
-# <swiftbar.image>https://raw.githubusercontent.com/evandstark/syncopath/main/icon.svg</swiftbar.image>
 # <swiftbar.refreshOnOpen>true</swiftbar.refreshOnOpen>
 # <swiftbar.version>4.0</swiftbar.version>
 # <swiftbar.author>Evan + ChatGPT</swiftbar.author>
-# <swiftbar.author.github>evanroberts</swiftbar.author.github>
-#
+# <swiftbar.author.github>evandstark</swiftbar.author.github>
 # <swiftbar.dependencies>jq, curl</swiftbar.dependencies>
 
 
