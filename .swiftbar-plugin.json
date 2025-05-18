@@ -1,0 +1,10 @@
+{
+    "title": "Syncopath",
+    "description": "Live Syncthing status, sync progress, and pause/resume controls for your dev folder",
+    "author": "Evan Stark",
+    "author.github": "evanstark",
+    "version": "1.0.0",
+    "dependencies": ["jq", "curl"],
+    "image": "https://raw.githubusercontent.com/evanstark/syncopath/icon.svg",
+    "script": "SyncthingDev.10s.sh"
+  }
