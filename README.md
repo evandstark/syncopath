@@ -25,7 +25,7 @@ Prompt-assisted by ChatGPT, who refused to let the author vibe code into oblivio
 
 ## Prerequisites
 - `jq` and `curl` (`brew install jq curl`)
-- `ARM64` CLI. IDEs often use `i386` (Rosetta) for integrated CLI.
+- `ARM64` CLI; IDEs often use `i386` (Rosetta) for integrated CLI
 - Syncthing running as a local service (`brew install syncthing && brew services start syncthing`)
 
 ## Setup
@@ -72,7 +72,7 @@ In `SyncthingDev.10s.sh`:
 ## Other Commands
 
 ### `make logs`
-Tails Syncopath’s activity log `(~/.syncthing-dev-sync.log`) for sync events, warnings, and watchdog status.
+Tails Syncopath’s activity log (`~/.syncthing-dev-sync.log`) for sync events, warnings, and watchdog status.
 
 ### `make clean`
 - Removes Syncopath logs and tracking files.
