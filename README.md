@@ -30,11 +30,18 @@ Prompt-assisted by ChatGPT, who refused to let the author vibe code into oblivio
 
 ## Setup
 
-After cloning the repo:
+After cloning the repo, run:
 
 ```bash
 cd syncopath
 make install
+```
+
+Copy `SyncthingDev.10s.sh` to your SwiftBar plugin folder (typically `~/.swiftbar/`):
+
+```bash
+cp SyncthingDev.10s.sh ~/.swiftbar/
+chmod +x ~/.swiftbar/SyncthingDev.10s.sh
 ```
 
 ## Customization
