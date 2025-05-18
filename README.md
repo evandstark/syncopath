@@ -9,7 +9,6 @@ A neurotically helpful macOS SwiftBar plugin for live monitoring your Syncthing 
 - Sync progress %, remaining MB, file count
 - Stale sync detection with push alerts
 - Background `launchd` watchdog for off-menubar resilience
-- Supports Syncthing GUI authentication and SSL
 
 Because you’ve got **commitment issues**, and **Syncopath doesn’t trust you either**.
 
@@ -21,11 +20,12 @@ Prompt-assisted by ChatGPT, who refused to let the author vibe code into oblivio
 - Alerts you if sync hasn't completed in X minutes
 - Automatically restarts Syncthing if it's not running
 - Custom icons, menu actions, and notification integration
+- Supports Syncthing GUI authentication and SSL
 - Compatible with SwiftBar
 
 ## Prerequisites
 - `jq` and `curl` (`brew install jq curl`)
-- - `ARM64` CLI. IDEs often use `i386` (Rosetta) for integrated CLI.
+- `ARM64` CLI. IDEs often use `i386` (Rosetta) for integrated CLI.
 - Syncthing running as a local service (`brew install syncthing && brew services start syncthing`)
 
 ## Setup
