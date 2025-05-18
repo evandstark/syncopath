@@ -9,6 +9,7 @@ A neurotically helpful macOS SwiftBar plugin for live monitoring your Syncthing 
 - Sync progress %, remaining MB, file count
 - Stale sync detection with push alerts
 - Background `launchd` watchdog for off-menubar resilience
+- Supports Syncthing GUI authentication and SSL
 
 Because you’ve got **commitment issues**, and **Syncopath doesn’t trust you either**.
 
@@ -23,10 +24,9 @@ Prompt-assisted by ChatGPT, who refused to let the author vibe code into oblivio
 - Compatible with SwiftBar
 
 ## Prerequisites
+- `jq` and `curl` (`brew install jq curl`)
+- - `ARM64` CLI. IDEs often use `i386` (Rosetta) for integrated CLI.
 - Syncthing running as a local service (`brew install syncthing && brew services start syncthing`)
-- Syncthing using SSL on `8384`. Update `SYNCTHING_URL` if necesnotsary.
-- The host CLI is `ARM64`. IDEs often use `i386` (Rosetta) for integrated CLI.
-`jq` and `curl` (`brew install jq curl`)
 
 ## Setup
 
@@ -40,14 +40,14 @@ make install
 ## Customization
 
 ### Authentication
-If your Syncthing GUI uses authentication, add your API key to AUTH_HEADER in `SyncthingDev.10s.sh`:
+If your Syncthing GUI uses authentication, add your API key to `AUTH_HEADER` in `SyncthingDev.10s.sh`:
 
    ```bash
    AUTH_HEADER="X-API-Key: your_real_api_key_here"
    ```
 
 ### Host, Port, and SSL
-Edit the following in the script to match your Syncthing folder setup:
+Edit the following in the scripts to match your Syncthing folder setup:
 
 In `Makefile`:
 
@@ -73,5 +73,4 @@ Tails Syncopath’s activity log `(~/.syncthing-dev-sync.log`) for sync events, 
 
 ## License
 
-MIT License. Feel free to fork and extend.
-
+MIT License. Fork it.
