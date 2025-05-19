@@ -12,7 +12,7 @@
 
 ST_API="https://127.0.0.1:8384"
 FOLDER_ID="dev-sync"
-AUTH_HEADER="X-API-Key: xW4G5nk24poFVsS3UPhd5fjUwjYPjd7W"
+AUTH_HEADER="X-API-Key: your_real_api_key_here"
 TRACK_FILE="$HOME/.syncthing-dev-last-sync"
 LOG_FILE="$HOME/.syncthing-dev-sync.log"
 STALE_LIMIT_MINUTES=60
